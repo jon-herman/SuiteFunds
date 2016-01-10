@@ -15,5 +15,6 @@ To close the server:
 $ CTRL+C
 
 To close the virtual environment:
+
 $ deactivate
 
