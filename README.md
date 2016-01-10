@@ -12,6 +12,7 @@ $ cd app
 
 $ python app.py
 
+
 Then point the browser to:
 http://127.0.0.1:5000/
 
@@ -22,9 +23,11 @@ To close the server:
 $ CTRL+C
 
 
+
 To close the virtual environment:
 
 $ deactivate
+
 
 Currently the app is hardcoded with my suite's members, to generalize, delete the hardcoded funds dictionary and uncomment the commented-out lines in the getFunds method.  (The purpose of hardcoding was to ensure that people who made no payments are still included.) 
 
