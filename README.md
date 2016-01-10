@@ -9,6 +9,7 @@ $ . bin/activate
 To create the server and run the app:
 
 $ cd app
+
 $ python app.py
 
 Then point the browser to:
