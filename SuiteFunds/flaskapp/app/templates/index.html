@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Suite Funds</title>
+  </head>
+
+  <body style="background-color:#C4D8E2;">
+  	<h1 align="middle">Suite Funds</h1>
+
+  	<div align="middle">
+  		<img src="http://ecx.images-amazon.com/images/I/9124ZdU6GeL._SL1500_.jpg" alt="club crackers" width="35%" height="35%">
+  		<p></p>
+  	</div>
+
+
+  	<fieldset>
+  		<form action="/submit" method="post">
+	  		<textarea name="input" align="center"rows="8" cols="150"> Insert payments here (make sure names are only one word!):</textarea>
+	  		<br>
+	  		<button value="Submit">Submit</button>
+	  	</form>
+
+  		<!--
+	  	<form action="/submit" method="post">
+	  		David:<br>
+	  		<input type="number" name="david" required>
+	  		<br>
+	  		Jason (Other):<br>
+	  		<input type="number" name="other_jason" required>
+	  		<br>
+	  		Jason E:<br>
+	  		<input type="number" name="jason" required>
+	  		<br>
+	  		Jon:<br>
+	  		<input type="number" name="jon" required>  		
+	  		<br>
+	  		Eitan:<br>
+	  		<input type="number" name="eitan" required>
+	  		<br>
+	  		Dylan:<br>
+	  		<input type="number" name="dylan" required>
+	  		<br>
+	  		Gabe:<br>
+	  		<input type="number" name="gabe" required>
+	  		<br><br>
+	  		<button value="Submit">Submit</button>
+	  	</form>
+	  	!-->
+	  </fieldset>
+	  {% for payment in payments %}
+	    <h5>{{ payment }}</h5>
+	  {% else %}
+	    <h3>Payments:</h3>
+	  {% endfor %}
+  </body>
+
+</html>
